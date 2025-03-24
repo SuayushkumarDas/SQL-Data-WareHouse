@@ -1,3 +1,17 @@
+/*
+Overview
+This SQL script processes raw CRM sales data from the bronze layer and loads it into the silver layer (silver.crm_sales_details).
+It performs essential data cleaning, validation, and transformation before inserting records.
+
+Key Features
+ 1.Handles Invalid Dates → Converts incorrectly formatted dates or sets them to NULL
+ 2.Fixes Sales Price Calculation → Ensures sls_sales = sls_quantity * abs(sls_price)
+ 3.Prevents Division by Zero → Uses NULLIF(sls_quantity, 0) to avoid errors
+ 4.Ensures Data Consistency → Drops & recreates the target table before insertion
+
+*/
+
+
 IF OBJECT_ID('silver.crm_sales_details', 'U') IS NOT NULL
     DROP TABLE silver.crm_sales_details;
 GO
