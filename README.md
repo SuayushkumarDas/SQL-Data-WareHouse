@@ -5,4 +5,5 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 
 
 # 🏗️ Data Architecture
-![image](https://github.com/user-attachments/assets/7f0938e3-61ee-4f9c-949d-9eb86b0d6008)
+![Data Warehouse](https://github.com/user-attachments/assets/75b8be7c-b51a-4c5f-b3cd-92771e7de538)
+
