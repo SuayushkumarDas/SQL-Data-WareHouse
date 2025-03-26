@@ -6,9 +6,9 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 ## ETL METHODS
 ![img_01-4-1024x428](https://github.com/user-attachments/assets/453f9b6f-0004-4f63-88ce-384c05ec8aec)
 
-1. Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-2. Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3.Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
+- **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV files into the SQL Server Database.
+- **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+- **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 
 ## Project Overview
